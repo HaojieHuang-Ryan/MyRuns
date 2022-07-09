@@ -8,8 +8,8 @@
         android:id="@+id/manualList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/manualButtons">
-    </ListView>
+        android:layout_above="@+id/manualButtons"
+        android:entries="@array/manualList" />
 
     <LinearLayout
         android:id="@+id/manualButtons"

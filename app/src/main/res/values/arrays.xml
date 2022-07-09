@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string-array name="inputTypes">
         <item>Manual Entry</item>
         <item>GPS</item>
@@ -21,6 +22,16 @@
         <item>Wheelchair</item>
         <item>Elliptical</item>
         <item>Other</item>
+    </string-array>
+
+    <string-array name="manualList">
+        <item>"Date"</item>
+        <item>"Time"</item>
+        <item>"Duration"</item>
+        <item>"Distance"</item>
+        <item>"Calories"</item>
+        <item>"Heart Rate"</item>
+        <item>"Comment"</item>
     </string-array>
 
     <string-array name="unitsArrays">

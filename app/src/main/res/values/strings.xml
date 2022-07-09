@@ -18,5 +18,4 @@
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="reset">Reset</string>
-    <string name="settings_preference_key">SETTINGS_PREFERENCE_KEY</string>
 </resources>

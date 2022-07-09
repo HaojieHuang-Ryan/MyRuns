@@ -146,10 +146,9 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/save"
-                android:onClick="onSaveClicked"
-                android:layout_marginEnd="20dp"
-                android:minWidth="125dp"
+                android:text="@string/reset"
+                android:onClick="onResetClicked"
+                android:layout_marginEnd="10dp"
                 android:textAllCaps="true"
                 android:textSize="15sp"
                 style="?android:attr/buttonBarStyle"/>
@@ -159,20 +158,19 @@
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
                 android:onClick="onCancelClicked"
-                android:minWidth="125dp"
+                android:layout_marginEnd="10dp"
                 android:textAllCaps="true"
                 android:textSize="15sp"
                 style="?android:attr/buttonBarStyle"/>
 
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="@string/reset"-->
-<!--                android:onClick="onResetClicked"-->
-<!--                android:layout_weight="0.33"-->
-<!--                android:textAllCaps="true"-->
-<!--                android:textSize="15sp"-->
-<!--                style="?android:attr/buttonBarStyle"/>-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:onClick="onSaveClicked"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                style="?android:attr/buttonBarStyle"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
