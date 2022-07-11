@@ -2,7 +2,6 @@
 ## Overview
 The MyRuns app is a simple fitness app for Android. It allows you to capture your runs and walks and view the stats on Google Maps. It uses sensors (viz. GPS, accelerometers) in the phone to infer your activity (e.g., running) in an automatic manner. I start by building out the UI then add GPS, Google maps, the inference model and database components. The app comprises a client that runs on the phone. This is a fun and challenging set of assignments that let’s me get experience with many of the common programming challenges when building an Android app. I can use this experience as a foundation for creating and programming your own ideas as part of the working project in the future at the end of the class. I will therefore experience design, programming, testing and publishing an app – the complete lifecycle.
 
-***
 ## Menu
 [1. MyRun1 -- The User Profile](#myrun1----the-user-profilehttpsgithubcomhaojiehuang-ryanmyrunstreemyrun1)
 
@@ -41,13 +40,14 @@ Design and implement the tracking services. Draw the real-time GPS trace on Goog
 Implement activity recognition. It should train an activity classifier by collecting accelerometer data, then apply the classifier in the app.
 * You can download the apk from [here](https://github.com/HaojieHuang-Ryan/MyRuns/releases/tag/MyRun6).
   
-***
 ## **User Interface Walk-through**
 When you launch the app you are bought to the main interface as shown in the figures below. The main UI consists of three tabs (from left to right): start, history and settings. When the app starts, it focusses on the start tab. The app offers a number of modes to record workouts -- for example, manual input which is a bit tedious and the GPS mode as shown in the figures. You can view your workout history by tapping on the history tab. In the setting tab, you can set your personal information, e.g., name, email, etc. We are going to introduce each of these three tabs in the following section.
 
+<figure class="third">
 <img src="./pictures/start_frag.png" width = "254" height = "454" alt="图片名称"/>
 <img src="./pictures/history_frag.png" width = "254" height = "454" alt="图片名称"/>
 <img src="./pictures/settings_frag.png" width = "254" height = "454" alt="图片名称"/>
+</figure>
 
 ### **1. Start Tab**
 You can record your work out in three ways: manual input, GPS or automatic modes. This section describes how each method works.
@@ -55,8 +55,10 @@ You can record your work out in three ways: manual input, GPS or automatic modes
 #### **1.1 Manual Entry Mode**
 Manual entry is activated when you select “Manual Entry” for the “Input Type” using the start tab. You can specify the type of activity in “Activity Type” spinner. When you click “Start”, you will be brought to the manual input interface, where you can input the details of your workout. The table below shows the information type (e.g., heart rate), the type of widget used for data entry (e.g., TimePickerDialog) and short note on how the data could be stored (e.g., Store the timestamp in long) for data associated with a workout that the use can manually enter.
 
+<figure class="half">
 <img src="./pictures/manual_entry.png" width = "254" height = "454" alt="图片名称"/>
 <img src="./pictures/manual_entry_dialog.png" width = "254" height = "454" alt="图片名称"/>
+</figure>
 
 The corresponding details of exercise are listed in the following table.\
 <img src="./pictures/workout_table.png" width = "685" height = "284" alt="图片名称"/>
@@ -82,8 +84,10 @@ When the user clicks on an entry, assuming the entry was input manually, then th
 ### **3. Settings Tab**
 As discussed in the User Interface Walk-through section, you can set up the user profile (open a new activity), privacy setting (check box), unit preference (pop-up dialog with radio boxes) and comment (pop-up dialog with text box) in the "Settings Tab". All setting modifications should be saved automatically.
 
+<figure class="half">
 <img src="./pictures/profile_activity.png" width = "254" height = "454" alt="图片名称"/>
 <img src="./pictures/profile_camera.png" width = "254" height = "454" alt="图片名称"/>
+</figure>
 
 When the user clicks the “User Profile” a new view is presented, as shown in the screenshots above. The user should be able to input their photo, name, email, phone number, etc. When the user click the "Change" button, they can choose to take a picture using the camera or select one from the gallery (as shown in the middle figure). The interface should allow the user to take or get a picture. The following table shows detailed definitions of the user profile.
 
