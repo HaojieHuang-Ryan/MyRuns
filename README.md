@@ -38,7 +38,7 @@ Design and implement the tracking services. Draw the real-time GPS trace on Goog
 ***
 ### [MyRun5 -- Activity Recognition](https://github.com/HaojieHuang-Ryan/MyRuns/tree/MyRun5)
 Implement activity recognition. It should train an activity classifier by collecting accelerometer data, then apply the classifier in the app.
-* You can download the apk from [here](https://github.com/HaojieHuang-Ryan/MyRuns/releases/tag/MyRun6).
+* You can download the apk from [here](https://github.com/HaojieHuang-Ryan/MyRuns/releases/tag/MyRun5).
   
 ## **User Interface Walk-through**
 When you launch the app you are bought to the main interface as shown in the figures below. The main UI consists of three tabs (from left to right): start, history and settings. When the app starts, it focusses on the start tab. The app offers a number of modes to record workouts -- for example, manual input which is a bit tedious and the GPS mode as shown in the figures. You can view your workout history by tapping on the history tab. In the setting tab, you can set your personal information, e.g., name, email, etc. We are going to introduce each of these three tabs in the following section.
