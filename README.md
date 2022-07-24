@@ -3,15 +3,15 @@
 The MyRuns app is a simple fitness app for Android. It allows you to capture your runs and walks and view the stats on Google Maps. It uses sensors (viz. GPS, accelerometers) in the phone to infer your activity (e.g., running) in an automatic manner. I start by building out the UI then add GPS, Google maps, the inference model and database components. The app comprises a client that runs on the phone. This is a fun and challenging set of assignments that let’s me get experience with many of the common programming challenges when building an Android app. I can use this experience as a foundation for creating and programming your own ideas as part of the working project in the future at the end of the class. I will therefore experience design, programming, testing and publishing an app – the complete lifecycle.
 
 ## Menu
-[1. MyRun1 -- The User Profile](#myrun1----the-user-profilehttpsgithubcomhaojiehuang-ryanmyrunstreemyrun1)
+[1. MyRun1 -- The User Profile](#myrun1----the-user-profile)
 
-[2. MyRun2 -- The User Interface (UI)](#myrun2----the-user-interface-uihttpsgithubcomhaojiehuang-ryanmyrunstreemyrun2)
+[2. MyRun2 -- The User Interface (UI)](#myrun2----the-user-interface-ui)
 
-[3. MyRun3 -- The Database](#myrun3----the-databasehttpsgithubcomhaojiehuang-ryanmyrunstreemyrun3)
+[3. MyRun3 -- The Database](#myrun3----the-database)
 
-[4. MyRun4 -- Google Maps](#myrun4----google-mapshttpsgithubcomhaojiehuang-ryanmyrunstreemyrun4)
+[4. MyRun4 -- Google Maps](#myrun4----google-maps)
 
-[5. MyRun5 -- Activity Recognition](#myrun5----activity-recognitionhttpsgithubcomhaojiehuang-ryanmyrunstreemyrun5)
+[5. MyRun5 -- Activity Recognition](#myrun5----activity-recognition)
 
 ***
 ### [MyRun1 -- The User Profile](https://github.com/HaojieHuang-Ryan/MyRuns/tree/MyRun1)
