@@ -11,8 +11,8 @@
             android:key="profile_key"
             android:title="Name, Email, Class, etc"
             android:summary="User Profile">
-            <intent android:targetPackage="com.example.haojie_huang_myruns4"
-                android:targetClass="com.example.haojie_huang_myruns4.activity.ProfileActivity" />
+            <intent android:targetPackage="com.example.haojie_huang_myruns5"
+                android:targetClass="com.example.haojie_huang_myruns5.activity.ProfileActivity" />
         </Preference>
 
         <CheckBoxPreference
